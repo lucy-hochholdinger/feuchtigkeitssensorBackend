@@ -17,7 +17,6 @@ const saltRounds = 10;
 // MONGO DB
 // URI on which you can find the database and how to connect
 const mongoUrl = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PWD}@${process.env.MONGO_URL}/${process.env.MONGO_DB}?retryWrites=true&w=majority`;
-console.log(mongoUrl);
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => console.log('db connected')).catch((err) => console.error(err));
 
 // MQTT
