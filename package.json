@@ -11,5 +11,8 @@
     },
     "author": "lucy",
     "license": "ISC",
-    "comment": "created with the vscode Let's Hassel extension"
+    "comment": "created with the vscode Let's Hassel extension",
+    "devDependencies": {
+        "eslint": "^7.30.0"
+    }
 }
